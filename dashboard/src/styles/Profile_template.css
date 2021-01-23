@@ -1,0 +1,68 @@
+* {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .profile-wrapper {
+    height: 100%;
+  }
+  
+  .center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .profile-body {
+    background: linear-gradient(
+      130deg,
+      rgba(31, 41, 125, 1) 0%,
+      rgba(0, 128, 128, 1) 100%
+    );
+    height: 150px;
+  }
+  
+  .profile-body img {
+    margin: 15px 25px;
+    height: 80%;
+    border: 3px solid white;
+    border-radius: 100%;
+    vertical-align: top;
+    float: left;
+  }
+  
+  .profile-body img:after {
+    clear: both;
+  }
+  
+  .profile-details {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    color: white;
+  }
+  
+  .profile-details:after {
+    clear: both;
+  }
+  
+  .profile-details h1 {
+    margin-bottom: 0.1em;
+  }
+  
+  .profile-details .description {
+    margin: 0;
+    padding-bottom: 0.3em;
+  }
+  
+  .profile-details ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .profile-details ul li,
+  .profile-details .item {
+    display: inline;
+  }
+  

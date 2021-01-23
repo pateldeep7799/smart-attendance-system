@@ -1,0 +1,10 @@
+.starParticlesContainer {
+   position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://unsplash.com/photos/EvKBHBGgaUo");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  }
+  
